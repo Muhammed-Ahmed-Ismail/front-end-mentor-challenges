@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    transition-duration: .3s;
 }
 html
 {
@@ -58,6 +59,7 @@ figure#card-img img#main-image
     padding: 125px;
     display: block;
     cursor: pointer;
+
 }
 figure#card-img div#on-active-img-container:hover
 {
@@ -131,10 +133,7 @@ hr
 
 }
 
-#auth-name span
-{
 
-}
 .highlighted
 {
     color: white;
